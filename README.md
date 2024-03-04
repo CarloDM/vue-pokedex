@@ -1,31 +1,32 @@
-Pokemon bracconaggio app
----------------
+### Pokemon bracconaggio VideoGame
 
-step costruzione applicazione:
-<ul>
-    <li>layout         : header comune con link a pagine sezioni del  gioco</li>
-    <li>layout         : main = pagine come sezioni del gioco</li>
-    <li>layout         : footer campo azioni che si possono intraprendere</li>
-    <li>pagina poke    : bracconaggio foresta di caccia</li>
-    <li>pagina poke    : recinto</li>
-    <li>pagina poke    : fossa comune</li>
-    <li>pagina finanze : downgrade della foresta braconaggio</li>
-</ul>
+pagina foresta:
 
-------------------------
+attendi che compaia un pokemon imbraccia il fucile e sparagli
+la probabilità di catturarlo è inversamente proporzionale alla sua vita rimanente
+la lista mostra i pokemon catturati selezionando un nome copariranno le statistiche nel pokedex.
 
-componenti necessarie : 
-<ul>
-    <li>card pokemon da cacciare</li>
-    <li>icon card pokemon in gabbia</li>
-</ul>
+pagina captured
+mostra il recinto dove i tuoi pokemon sono rinchiusi
+piu ne catturi piu soldi guadagnerai organizzando battaglie illegali.
 
+pagina extict
+mostra i pokemon morti e quindi estinti
+la lista e il pokedex funzionano analogamente alla pagina foresta ma mostrando i pokemon che hai estinto
+ogni pokemon estinto produce 1 unità di gas metano al secondo.
+
+pagina finance
+qui puoi vendere il gas in cambio di soldi,
+con i soldi puoi finanziare la deforestazione,
+piu alzi il livello di deforestazione piu pokemon selvaggi ti compariranno contemporaneamente nella pagina foresta.
+
+la partita si salva automaticamente in cache.
+
+Buon Bracconaggio!
+
+
+-----------------------------------------
 
 cosa manca:
-
-1 logo pokemon brakonaggio
-
-2 captured page styel
-
 3 import export cache!
 
